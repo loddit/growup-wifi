@@ -10,24 +10,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta http-equiv="cleartype" content="on">
 
-        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/touch/apple-touch-icon-144x144-precomposed.png">
-        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/touch/apple-touch-icon-114x114-precomposed.png">
-        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/touch/apple-touch-icon-72x72-precomposed.png">
-        <link rel="apple-touch-icon-precomposed" href="img/touch/apple-touch-icon-57x57-precomposed.png">
-        <link rel="shortcut icon" href="img/touch/apple-touch-icon.png">
-
-        <!-- Tile icon for Win8 (144x144 + tile color) -->
-        <meta name="msapplication-TileImage" content="img/touch/apple-touch-icon-144x144-precomposed.png">
-        <meta name="msapplication-TileColor" content="#222222">
-
-
-        <!-- For iOS web apps. Delete if not needed. https://github.com/h5bp/mobile-boilerplate/issues/94 -->
-        <!--
-        <meta name="apple-mobile-web-app-capable" content="yes">
-        <meta name="apple-mobile-web-app-status-bar-style" content="black">
-        <meta name="apple-mobile-web-app-title" content="">
-        -->
-
         <!-- This script prevents links from opening in Mobile Safari. https://gist.github.com/1042026 -->
         <!--
         <script>(function(a,b,c){if(c in b&&b[c]){var d,e=a.location,f=/^(a|html)$/i;a.addEventListener("click",function(a){d=a.target;while(!f.test(d.nodeName))d=d.parentNode;"href"in d&&(d.href.indexOf("http")||~d.href.indexOf(e.host))&&(a.preventDefault(),e.href=d.href)},!1)}})(document,window.navigator,"standalone")</script>
@@ -38,6 +20,27 @@
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
     <body>
+        <div id="main">
+            <img src="./img/grow-up-logo.png" id="logo">
+            <ul id="links">
+                <li>
+                    <a href="http://www.shucang.org" title="书仓"><img src="./img/shucang.png"></a>
+                    <h3>书仓网</h3>
+                </li>
+                <li>
+                    <a href="http://zh.wikipedia.org/" title="维基百科"><img src="./img/wikipedia.png"></a>
+                    <h3>维基百科</h3>
+                </li>
+                <li>
+                    <a href="http://aqicn.org/" title="空气质量"><img src="./img/aqicn.png"></a>
+                    <h3>空气质量</h3>
+                </li>
+                <li>
+                    <a href="http://map.baidu.com/" title="百度地图"><img src="./img/baidumap.png"></a>
+                    <h3>百度地图</h3>
+                </li>
+            </ul>
+        </div>
 
         <!-- Add your site or application content here -->
 

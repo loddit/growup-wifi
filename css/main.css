@@ -65,6 +65,33 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+#main {
+  text-align: center;
+  max-width: 70%;
+  min-width: 60%;
+  margin: 20px auto;
+}
+
+#logo {
+  width: 90%;
+}
+
+#links {
+  padding: 0;
+}
+
+#links li {
+  text-align: center;
+  display: inline-block;
+  width: 49%;
+  padding: 0;
+  list-style: none;
+}
+
+#links li img{
+  width: 70%;
+}
+
 
 
 
@@ -199,6 +226,16 @@ textarea[contenteditable] {
 
 @media only screen and (min-width: 800px) {
     /* Style adjustments for viewports that meet the condition */
+  #links li {
+    width: 24.5%;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 800px) {
+    /* Style adjustments for viewports that meet the condition */
+  #links li {
+    width: 33%;
+  }
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
