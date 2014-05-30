@@ -89,10 +89,16 @@ textarea {
   margin: 0;
 }
 
-#links li img{
+.link_icon{
   width: 70%;
+  opacity: 0.9;
 }
 
+.link_icon:hover {
+  opacity: 1;
+  position: relative;
+  top: -1px;
+}
 
 #footer {
   color: #ccc;
